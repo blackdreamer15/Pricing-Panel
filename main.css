@@ -47,3 +47,39 @@ table {
 	border-spacing: 0;
 }
 
+/*---  CUSTOM CSS ---*/
+html {
+    font-family: ;
+    box-sizing: border-box;
+}
+body {
+    background-color: #60a9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main.panel {
+    width: 100%;
+    max-width: 960px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section.pricing-plan {
+    border-bottom: 2px solid #d9e4ee;
+}
+
+section.pricing-plan:last-child {
+    border: none;
+}
