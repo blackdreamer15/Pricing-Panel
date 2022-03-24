@@ -48,8 +48,10 @@ table {
 }
 
 /*---  CUSTOM CSS ---*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 html {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 body {
@@ -87,7 +89,7 @@ section.pricing-plan:last-child {
 section img.pricing-img {
     width: 100%;
     max-width: 100%;
-    margin-bottom: 30px;
+    transform: scale(.5);
 }
 
 section h2.pricing-header {
@@ -98,7 +100,7 @@ section h2.pricing-header {
 
 section ul.pricing-features {
     color: #016ff9;
-    margin: 50px auto 25px;
+    margin: 20px auto 25px;
 }
 
 section ul.pricing-features li.pricing-features-item {
@@ -147,4 +149,19 @@ span.pricing-price {
     color: #fff;
 }
 
+@media (min-width: 900px) {
+    main.panel {
+        flex-direction: row;
+        height: 465px;
+    }
 
+    section.pricing-plan {
+        border: none;
+        border-right: 2px solid #d9e4ee;
+        padding: 25px 50px;
+    }
+
+    section.pricing-plan:last-child {
+        border-right: none;
+    }
+}
