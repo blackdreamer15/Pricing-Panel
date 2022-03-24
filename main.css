@@ -39,7 +39,7 @@ section.pricing-plan:last-child {
 section img.pricing-img {
     width: 100%;
     max-width: 100%;
-    transform: scale(.5);
+    transform: scale(.8);
 }
 
 section h2.pricing-header {
