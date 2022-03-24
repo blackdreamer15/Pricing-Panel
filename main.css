@@ -49,7 +49,7 @@ table {
 
 /*---  CUSTOM CSS ---*/
 html {
-    font-family: ;
+    font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
 }
 body {
@@ -89,3 +89,62 @@ section img.pricing-img {
     max-width: 100%;
     margin-bottom: 30px;
 }
+
+section h2.pricing-header {
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+section ul.pricing-features {
+    color: #016ff9;
+    margin: 50px auto 25px;
+}
+
+section ul.pricing-features li.pricing-features-item {
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 14px 0;
+    font-size: 13px;
+    border-top: 2px solid #d9e4ee;
+}
+
+section ul.pricing-features li.pricing-features-item:last-child {
+    border-bottom: 2px solid #d9e4ee;
+}
+
+span.pricing-price {
+    color: #016ff9;
+    display: block;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.pricing-button {
+    border: 1px solid #8ec8fa;
+    color: #348eff;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 25px 0;
+    font-weight: 600;
+    transition: background .2s ease-in-out;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+    background-color: #e1f1ff;
+}
+
+.featured {
+    background-color: #48aaff;
+    color: #fff;
+}
+
+.featured:hover, .featured:focus {
+    background-color: #269aff;
+    color: #fff;
+}
+
+
